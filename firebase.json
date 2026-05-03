@@ -1,0 +1,25 @@
+{
+    "flutter": {
+        "platforms": {
+            "android": {
+                "default": {
+                    "projectId": "electiva-2026",
+                    "appId": "1:1024268444186:android:3d68e0803cf4c78a75e7a3",
+                    "fileOutput": "android/app/google-services.json"
+                }
+            },
+            "dart": {
+                "lib/firebase_options.dart": {
+                    "projectId": "electiva-2026",
+                    "configurations": {
+                        "android": "1:1024268444186:android:3d68e0803cf4c78a75e7a3",
+                        "ios": "1:1024268444186:ios:ee8fd19fd032f78475e7a3",
+                        "macos": "1:1024268444186:ios:ee8fd19fd032f78475e7a3",
+                        "web": "1:1024268444186:web:cc185c91b762fb7375e7a3",
+                        "windows": "1:1024268444186:web:94029e25e936173c75e7a3"
+                    }
+                }
+            }
+        }
+    }
+}
