@@ -2,6 +2,7 @@ import 'package:electiva_2026/views/home/home_screen.dart';
 import 'package:electiva_2026/views/isolate/isolate_view.dart';
 import 'package:electiva_2026/views/paso_parametros/detalle_screen.dart';
 import 'package:electiva_2026/views/paso_parametros/paso_parametros_screen.dart';
+import 'package:electiva_2026/views/universidad/universidad_list_screen.dart';
 import 'package:go_router/go_router.dart';
 
 import '../views/ciclo_vida/ciclo_vida_screen.dart';
@@ -56,6 +57,12 @@ final GoRouter appRouter = GoRouter(
       path: '/timer',
       name: 'timer',
       builder: (context, state) => const TimerView(),
+    ),
+    //!Ruta para Universidades (Taller Firebase)
+    GoRoute(
+      path: '/universidades',
+      name: 'universidades',
+      builder: (context, state) => const UniversidadListScreen(),
     ),
   ],
 );
