@@ -99,6 +99,13 @@ class CustomDrawer extends StatelessWidget {
               context.go('/timer');
             },
           ),
+          ListTile(
+            leading: const Icon(Icons.school),
+            title: const Text('Universidades'),
+            onTap: () {
+              context.go('/universidades');
+            },
+          ),
         ],
       ),
     );
