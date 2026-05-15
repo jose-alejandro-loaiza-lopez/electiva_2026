@@ -15,4 +15,12 @@ class UniversidadService {
   Future<void> addUniversidad(Universidad universidad) async {
     await _collection.add(universidad.toMap());
   }
+
+  Future<void> updateUniversidad(String id, Universidad universidad) async {
+    await _collection.doc(id).update(universidad.toMap());
+  }
+
+  Future<void> deleteUniversidad(String id) async {
+    await _collection.doc(id).delete();
+  }
 }
